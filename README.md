@@ -2,6 +2,9 @@
 
 <h1 align="center">Marlin 3D Printer Firmware</h1>
 
+> this is for mks robin E3D v1.1 on ender 3
+> configs refer to https://github.com/MarlinFirmware/Configurations/blob/bugfix-2.1.x/config/examples/Creality/Ender-3/MKS%20Robin%20E3/V1.1/Configuration.h
+
 <p align="center">
     <a href="/LICENSE"><img alt="GPL-V3.0 License" src="https://img.shields.io/github/license/marlinfirmware/marlin.svg"></a>
     <a href="https://github.com/MarlinFirmware/Marlin/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/marlinfirmware/marlin.svg"></a>
