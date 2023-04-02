@@ -1232,7 +1232,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 93 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 98 }
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
@@ -1553,7 +1553,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -41, -14.4, -2.9 } // TL
+#define NOZZLE_TO_PROBE_OFFSET { -41, -14.4, -2.88 } // TL
 
 // Enable and set to use a specific tool for probing. Disable to allow any tool.
 #define PROBING_TOOL 0
@@ -2204,7 +2204,7 @@
 #endif
 
 // Homing speeds (linear=mm/min, rotational=°/min)
-#define HOMING_FEEDRATE_MM_M { (133 * 60), (133 * 60), (20 * 60) } // TL
+#define HOMING_FEEDRATE_MM_M { (150 * 60), (150 * 60), (20 * 60) } // TL
 
 // Validate that endstops are triggered on homing moves
 #define VALIDATE_HOMING_ENDSTOPS
